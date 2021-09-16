@@ -484,9 +484,9 @@
  		}
 	};
 
-	Anaya_Prim_Inicial_2022_DevStyle.prototype = _.extend({}, new blink.theme.styles.basic(), AnayaPrimInicial2022DevStyle.prototype);
+	AnayaPrimInicial2022DevStyle.prototype = _.extend({}, new blink.theme.styles.basic(), AnayaPrimInicial2022DevStyle.prototype);
 
-	blink.theme.styles['Anaya_Prim_Inicial_2022_Dev'] = AnayaPrimInicial2022DevStyle;
+	blink.theme.styles['AnayaPrimInicial2022Dev'] = AnayaPrimInicial2022DevStyle;
 
 })( blink );
 
