@@ -1,15 +1,37 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
 
 :root {
-	--colorppal: #0071AD;
-	--colortrans: #0071ad4f;
-    --GrisAnaya: #898989;
-
-    --Materialppal: #D1232A;
-
-    --Apartadoppal:#F68B1F;
+	--colorppal: #FDB325;
+	--colortrans: #FDB32552;
+    --GrisAnaya: #898989
 }
 
 b,
@@ -164,12 +186,16 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 body {
 	font-weight: normal;
 	text-align: left;
-	font-family: 'Nonum Gothic', sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 .texto_curso p {
 	line-height: 25px !important;
-	margin: 1.5rem 0;
+	margin: 15px 0;
 }
+.texto_curso p:last-of-type {
+    margin-bottom: 15px;
+}
+
 #actividad .texto_curso {
 	font-size: 18px;
 	line-height: 25px !important;
@@ -243,12 +269,11 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .header .title h3 {
     margin-top: 0;
     background: none;
-    color: var(--colorppal);
+    color: var(--GrisAnaya);
     padding: 0;
-    font-size: 48px;
+    font-size: 35px;
     border: 0;
-    font-weight: bold;
-    font-family: 'Lalezar', cursive;
+    font-weight: normal;
 
 }
 #actividad .content .header .title h3::before{
@@ -397,32 +422,39 @@ body #actividad a.bck-file-attach,
 .bck-title-1:before {
 	display: none;
 }
-.bck-title-1 {
+.bck-title-1, 
+    .bck-title1 {
     color: var(--colorppal);
-    font-size: 36px;
+    font-size: 24px;
     font-weight: normal;
     line-height: 3.0rem;
     margin: 10px 0 15px 0px;
 }
-.bck-title-2 {
+.bck-title-2,
+.bck-title2 {
     color: #000;
-    font-size: 2.4rem;
+    font-size: 18px;
     font-weight: bold;
-    line-height: 3.0rem;
-    margin: 0;
+    margin: 5px 0;
 }
-.bck-title-3 {
-    color: #000;
-    font-size: 2.0rem;
+.bck-title-3,
+.bck-title3 {
+    background: none;
+    color: #fdb325;
+    font-size: 18px;
+    padding: 2px 5px;
+    border-bottom: 2px solid;
     font-weight: bold;
-    line-height: 3.0rem;
-    margin: 0;
 }
-.bck-title-4 {
-    font-size: 1.6rem;
-    margin: 0;
-    line-height: 2.0rem;
-    color: #999999;
+.bck-title-4,
+.bck-title4 {
+    font-size: 18px;
+    color: #6F727B;
+    border-top: 3px solid #E3CE9D;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding-top: 5px;
+    font-weight: 600;
 }
 
 
@@ -474,26 +506,31 @@ body #actividad a.bck-file-attach,
 .bck-box.bck-box-1:before {
     display: none;
 }
-.bck-box.bck-box-1 {
+.bck-box.bck-box-1, 
+    .bck-box.box-1 {
     background-color: var(--colortrans);
     margin: 20px 0;
     border-radius: 5px;
     border: 0;
 }
-.bck-box.bck-box-1 .bck-title {
+.bck-box.bck-box-1 .bck-title, 
+    .bck-box.box-1 .bck-title {
     color: black;
     font-weight: bold;
     font-size: inherit;
 }
-.bck-box.bck-box-1 .bck-content {
+.bck-box.bck-box-1 .bck-content, 
+    .bck-box.box-1 .bck-content {
     padding: 0;
 }
 
 /* CAJA 2 */
-.bck-box.bck-box-2 .bck-title:before {
+.bck-box.bck-box-2 .bck-title:before, 
+    .bck-box.bck-box2 .bck-title:before {
 	display: none;
 }
-.bck-box.bck-box-2 {
+.bck-box.bck-box-2, 
+    .bck-box.bck-box2 {
     background-color: white;
     color: #231F20;
     border: 2px dashed var(--colorppal);
@@ -501,7 +538,8 @@ body #actividad a.bck-file-attach,
     padding: 0;
     border-radius: 0;
 }
- .bck-box.bck-box-2 .bck-title  {
+ .bck-box.bck-box-2 .bck-title, 
+    .bck-box.bck-box2 .bck-title {
     background: var(--colorppal);
     padding: 8px 30px;
     width: fit-content;
@@ -514,7 +552,8 @@ body #actividad a.bck-file-attach,
     font-weight: bold;
     color: white;
 }
-.bck-box.bck-box-2 .bck-content {
+.bck-box.bck-box-2 .bck-content, 
+    .bck-box.bck-box2 .bck-content {
     padding: 15px 20px 20px 20px;
 }
 
@@ -547,7 +586,7 @@ body #actividad a.bck-file-attach,
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
     color: #000;
-    cursor: poNonum Gothic;
+    cursor: pointer;
     font-size: 18px;
     font-weight: bold;
     padding-right: 40px;
@@ -557,7 +596,7 @@ body #actividad a.bck-file-attach,
     padding: 10px;
     border: 0;
     position: relative;
-    cursor: poNonum Gothic;
+    cursor: pointer;
     width: fit-content;
     width: -moz-fit-content;
     width: -webkit-fit-content;
@@ -640,6 +679,13 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 /*----*/
 
 /*Ajuste general listas */
+.cke_contents .bck-ol,
+ .cke_contents ol,
+  .content .bck-ol,
+   .content ol {
+    counter-reset: bck-li-counter;
+}
+
 #actividad .texto_curso li,
  #actividad .workspace ul li li {
     position: relative;
@@ -647,6 +693,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     margin-left: 0;
     line-height: inherit;
     font-size: 15px;
+    line-height: 25px !important;
 }
 #actividad .content .texto_curso .bck-ul,
 #actividad .content .cke_contents .bck-ul,
@@ -654,6 +701,14 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
  #actividad .content .cke_contents .bck-ol {
     padding: 0;
 }
+.texto_curso ul,
+ .texto_curso ol,
+  .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ul, 
+  .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol, 
+  .cke_contents ul, .cke_contents ol, .popover-content ul, .popover-content ol {
+    margin: 15px 0;
+}
+
 /*LISTAS DESORDENADAS*/
 .texto_curso ul li {
 	padding-left: 20px;
@@ -694,7 +749,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	position: absolute;
-	margin-top: 8px;
+	margin-top: 10px;
 	margin-left: -10px;
 }
 
@@ -738,7 +793,7 @@ content: "";
     position: relative;
     text-align: left;
     font-size: 15px;
-    font-family: 'Nonum Gothic', sans-serif;
+    font-family: 'Inter', sans-serif;
 	margin-left: -10px; 
 	left: 0;
 	width: auto;
@@ -748,7 +803,13 @@ content: "";
  #actividad .content .cke_contents .bck-ol-1 li,
   #actividad .content .texto_curso .bck-ol-1 li,
    #actividad .popover-content .bck-ol-1 li,
-    #actividad .content .workspace ul li .bck-ol-1 li {
+    #actividad .content .workspace ul li .bck-ol-1 li,
+
+    #actividad .content .cke_contents .bck-ol1 li,
+ #actividad .content .cke_contents .bck-ol1 li,
+  #actividad .content .texto_curso .bck-ol1 li,
+   #actividad .popover-content .bck-ol1 li,
+    #actividad .content .workspace ul li .bck-ol1 li {
     counter-increment: bck-li-counter;
     position: relative;
     z-index: 0;
@@ -758,9 +819,14 @@ content: "";
 #actividad .content .cke_contents .bck-ol-1 li:before,
  #actividad .content .texto_curso .bck-ol-1 li:before,
   #actividad .popover-content .bck-ol-1 li:before,
-   #actividad .content .workspace ul li .bck-ol-1 li:before {
+   #actividad .content .workspace ul li .bck-ol-1 li:before,
+
+   #actividad .content .cke_contents .bck-ol1 li:before,
+ #actividad .content .texto_curso .bck-ol1 li:before,
+  #actividad .popover-content .bck-ol1 li:before,
+   #actividad .content .workspace ul li .bck-ol1 li:before {
     content: counter(bck-li-counter) ".";
-    font-family: 'Nonum Gothic', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: normal;
     position: relative;
     color: inherit;
@@ -861,7 +927,7 @@ content: "";
     color: #1a171b;
     line-height: 38px;
 	text-align: center;
-	cursor: poNonum Gothic;
+	cursor: pointer;
 }
 
 /*Pop-up flotante*/
@@ -1019,8 +1085,13 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     vertical-align: middle;
 }
 
-
-
+/*Lupa para imágenes*/
+body:not(.edit) #actividad a.zoom_flag_img {
+    background-color: var(--colortrans);
+    border-radius: 0px 5px 0px 5px;
+    top: 0;
+    right: 0;
+}
 
 /*Eliminar el fondo en el vídeo*/
 .video-js {
@@ -1033,6 +1104,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 #actividad .content img {
     margin-top: 0;
 }
+
+/*
 
 /*Barra de separación (HR)*/
 hr {
