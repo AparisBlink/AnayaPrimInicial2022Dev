@@ -206,7 +206,7 @@ body {
 }
 
 /*logo*/
-.content_type_curso_Anaya_Prim_Incial_2022_Dev.content_type_clase_Anaya_Prim_Incial_2022_Dev   .libro-left ul li .title:before { 
+.content_type_curso_AnayaPrimInicial2022Dev.content_type_clase_AnayaPrimInicial2022Dev   .libro-left ul li .title:before { 
 	opacity: 0;
 }
 
@@ -230,7 +230,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 /*--*/
 
-.Anaya_Prim_Incial_2022_Dev-navbar h3 {
+.AnayaPrimInicial2022Dev-navbar h3 {
 	width: 75%;
 	margin: auto;
 	margin-bottom: 15px;
@@ -265,7 +265,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background: #fff;
 }
 
-.Anaya_Prim_Incial_2022_Dev-navbar {
+.AnayaPrimInicial2022Dev-navbar {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -284,25 +284,25 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	background: none;
 }
 
-body.is_app .Anaya_Prim_Incial_2022_Dev-navbar {
+body.is_app .AnayaPrimInicial2022Dev-navbar {
 	-webkit-transition: top 0.5s linear;
 	-o-transition: top 0.5s linear;
 	-moz-transition: top 0.5s linear;
 	transition: top 0.5s linear;
 }
 
-body.is_app .Anaya_Prim_Incial_2022_Dev-navbar.ocultar {
+body.is_app .AnayaPrimInicial2022Dev-navbar.ocultar {
 	top: -136px;
 }
 
-.Anaya_Prim_Incial_2022_Dev-navbar .navbar-content {
+.AnayaPrimInicial2022Dev-navbar .navbar-content {
 	width: 100%;
 	height: 100%;
 	padding: 0 20px;
 	text-align: center;
 }
 
-.Anaya_Prim_Incial_2022_Dev-navbar .copyright {
+.AnayaPrimInicial2022Dev-navbar .copyright {
 	color: #fff;
 	line-height: 5.0rem;
 }
