@@ -458,16 +458,17 @@ body #actividad a.bck-file-attach,
 
 /*Énfasis */
 .bck-enfasis-1 {
-    color: var(--colorppal);
     font-weight: bold;
 }
 .bck-enfasis-2 {
-    border-bottom: 3px solid var(--colorppal);
+    font-family: serif;
 }
 .bck-enfasis-3 {
-    background-color: var(--colortrans);
-    padding: 2px 7px;
-    border-radius: 3px;
+    color: #F68B1F;
+    font-size: 16px;
+}
+.bck-enfasis-4 {
+    color: #223F99;
 }
 
 /* ---- CAJAS ---*/
