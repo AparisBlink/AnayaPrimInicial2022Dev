@@ -592,6 +592,58 @@ body #actividad a.bck-file-attach,
     padding: 0;
 }
 
+/*Caja 4*/
+.bck-box.bck-box-4 {
+    background-color: #E6DBEC;
+    margin: 20px 0;
+    border-radius: 0 15px 15px 0px;
+    border: 0;
+    border-left: 5px solid #9F6EAE;
+    -moz-box-shadow: 3px 2px 8px 2px #0000002e;  
+    -webkit-box-shadow: 3px 2px 8px 2px #0000002e;  
+    box-shadow: 3px 2px 8px 2px #0000002e;  
+}
+.bck-box.bck-box-4 .bck-title {
+    color: black;
+    font-weight: bold;
+    font-size: inherit;
+}
+.bck-box.bck-box-4 .bck-content {
+    padding: 0;
+}
+
+/*Caja 5*/
+.bck-box.bck-box-5 {
+    background-color: #D9F0F8;
+    margin: 20px 0;
+    border-radius: 0;
+    border: 0;
+}
+.bck-box.bck-box-5 .bck-title {
+    color: black;
+    font-weight: bold;
+    font-size: inherit;
+}
+.bck-box.bck-box-5 .bck-content {
+    padding: 0;
+}
+
+/*Caja 6*/
+.bck-box.bck-box-6 {
+    background-color: #DFEDCB;
+    margin: 20px 0;
+    border-radius: 0;
+    border: 0;
+}
+.bck-box.bck-box-6 .bck-title {
+    color: black;
+    font-weight: bold;
+    font-size: inherit;
+}
+.bck-box.bck-box-6 .bck-content {
+    padding: 0;
+}
+
 /*Desplegable*/
 
 /*---*/
