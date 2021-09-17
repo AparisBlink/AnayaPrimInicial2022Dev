@@ -417,43 +417,42 @@ body #actividad a.bck-file-attach,
     color: #000;
     font-size: 24px;
     font-weight: bold;
-    line-height: 3.0rem;
-    margin: 5px 0;
+    margin: 15px 0 5px 0;
 }
 .bck-title-3,
 .bck-title3 {
     color: var(--Apartadoppal);
     font-weight: bold;
     line-height: 3.0rem;
-    margin: 15px 0px;
+    margin: 15px 0 5px 0;
     font-family: 'Patrick Hand', cursive;
     font-size: 34px;
 }
 .bck-title-4,
 .bck-title4 {
     font-size: 34px;
-    margin: 15px 0;
+    margin: 15px 0 5px 0;
     line-height: 30px;
     color: var(--Apartadoppal);
     font-family: 'Lalezar';
 }
 .bck-title-5 {
     font-size: 18px;
-    margin: 5px 0;
+    margin: 10px 0 2px 0;
     color: #00A65D;
     font-family: 'Lalezar';
     text-transform: uppercase;
 }
 .bck-title-6 {
     font-size: 18px;
-    margin: 5px 0;
+    margin: 10px 0 2px 0;
     color: var(--colorppal);
     font-family: 'Lalezar';
 }
 .bck-title-7 {
     color: #00A65D;
     font-weight: bold;
-    margin: 15px 0px 10px 0;
+    margin: 15px 0 5px 0;
     font-family: 'Patrick Hand', cursive;
     font-size: 33px;
     text-transform: uppercase;
