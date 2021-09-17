@@ -510,10 +510,14 @@ body #actividad a.bck-file-attach,
 }
 .bck-box.bck-box-1, 
     .bck-box.box-1 {
-    background-color: var(--colortrans);
+    background-color: #FDDDBD;
     margin: 20px 0;
-    border-radius: 5px;
+    border-radius: 0 15px 15px 0px;
     border: 0;
+    border-left: 5px solid #F68B1F;
+    -moz-box-shadow: 3px 2px 8px 2px #0000002e;  
+    -webkit-box-shadow: 3px 2px 8px 2px #0000002e;  
+    box-shadow: 3px 2px 8px 2px #0000002e;  
 }
 .bck-box.bck-box-1 .bck-title, 
     .bck-box.box-1 .bck-title {
@@ -533,30 +537,23 @@ body #actividad a.bck-file-attach,
 }
 .bck-box.bck-box-2, 
     .bck-box.bck-box2 {
-    background-color: white;
-    color: #231F20;
-    border: 2px dashed var(--colorppal);
-    margin: 35px 0px 20px;
-    padding: 0;
-    border-radius: 0;
+    background-color: #E8F0C7;
+    margin: 20px 0;
+    border-radius: 0 15px 15px 0px;
+    border: 0;
+    -moz-box-shadow: 3px 2px 8px 2px #0000002e;  
+    -webkit-box-shadow: 3px 2px 8px 2px #0000002e;  
+    box-shadow: 3px 2px 8px 2px #0000002e;  
 }
  .bck-box.bck-box-2 .bck-title, 
     .bck-box.bck-box2 .bck-title {
-    background: var(--colorppal);
-    padding: 8px 30px;
-    width: fit-content;
-    width: -moz-fit-content;
-    width: -webkit-fit-content;
-    border-radius: 5px;
-    margin-left: 20px;
-    margin-top: -20px;
-    text-align: center;
+    color: black;
     font-weight: bold;
-    color: white;
+    font-size: inherit;
 }
 .bck-box.bck-box-2 .bck-content, 
     .bck-box.bck-box2 .bck-content {
-    padding: 15px 20px 20px 20px;
+    padding: 0;
 }
 
 /*CAJA 3 */
