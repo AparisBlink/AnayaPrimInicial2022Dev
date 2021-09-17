@@ -1,6 +1,6 @@
 /*Fonts*/
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
@@ -166,7 +166,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 body {
 	font-weight: normal;
 	text-align: left;
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 .texto_curso p {
 	line-height: 25px !important;
@@ -861,7 +861,7 @@ content: "";
     position: relative;
     text-align: left;
     font-size: 15px;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 	margin-left: -10px; 
 	left: 0;
 	width: auto;
@@ -894,7 +894,7 @@ content: "";
   #actividad .popover-content .bck-ol1 li:before,
    #actividad .content .workspace ul li .bck-ol1 li:before {
     content: counter(bck-li-counter) ".";
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: normal;
     position: relative;
     color: inherit;
