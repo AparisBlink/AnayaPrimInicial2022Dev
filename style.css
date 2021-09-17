@@ -403,8 +403,7 @@ body #actividad a.bck-file-attach,
 .bck-title-1:before {
 	display: none;
 }
-.bck-title-1, 
-    .bck-title1 {
+.bck-title-1 {
     color: var(--Materialppal);
     font-size: 32px;
     font-weight: normal;
@@ -412,15 +411,13 @@ body #actividad a.bck-file-attach,
     margin: 20px 0 10px 0px;
     font-family: 'Lalezar';
 }
-.bck-title-2,
-.bck-title2 {
+.bck-title-2 {
     color: #000;
     font-size: 24px;
     font-weight: bold;
     margin: 15px 0 5px 0;
 }
-.bck-title-3,
-.bck-title3 {
+.bck-title-3 {
     color: var(--Apartadoppal);
     font-weight: bold;
     line-height: 3.0rem;
@@ -428,8 +425,7 @@ body #actividad a.bck-file-attach,
     font-family: 'Patrick Hand', cursive;
     font-size: 34px;
 }
-.bck-title-4,
-.bck-title4 {
+.bck-title-4 {
     font-size: 34px;
     margin: 15px 0 5px 0;
     line-height: 30px;
@@ -508,8 +504,7 @@ body #actividad a.bck-file-attach,
 .bck-box.bck-box-1:before {
     display: none;
 }
-.bck-box.bck-box-1, 
-    .bck-box.box-1 {
+.bck-box.bck-box-1 {
     background-color: #FDDDBD;
     margin: 20px 0;
     border-radius: 0 15px 15px 0px;
@@ -519,60 +514,82 @@ body #actividad a.bck-file-attach,
     -webkit-box-shadow: 3px 2px 8px 2px #0000002e;  
     box-shadow: 3px 2px 8px 2px #0000002e;  
 }
-.bck-box.bck-box-1 .bck-title, 
-    .bck-box.box-1 .bck-title {
+.bck-box.bck-box-1 .bck-title {
     color: black;
     font-weight: bold;
     font-size: inherit;
 }
-.bck-box.bck-box-1 .bck-content, 
-    .bck-box.box-1 .bck-content {
+.bck-box.bck-box-1 .bck-content {
     padding: 0;
 }
 
 /* CAJA 2 */
-.bck-box.bck-box-2 .bck-title:before, 
-    .bck-box.bck-box2 .bck-title:before {
+.bck-box.bck-box-2 .bck-title:before {
 	display: none;
 }
-.bck-box.bck-box-2, 
-    .bck-box.bck-box2 {
+.bck-box.bck-box-2{
     background-color: #E8F0C7;
-    margin: 20px 0;
+    margin: 40px 0 20px 0;
     border-radius: 0 15px 15px 0px;
     border: 0;
-    -moz-box-shadow: 3px 2px 8px 2px #0000002e;  
-    -webkit-box-shadow: 3px 2px 8px 2px #0000002e;  
-    box-shadow: 3px 2px 8px 2px #0000002e;  
+    -moz-box-shadow: 3px 2px 8px 2px #0000002e;
+    -webkit-box-shadow: 3px 2px 8px 2px #0000002e;
+    box-shadow: 3px 2px 8px 2px #0000002e;
+    position: relative;
+    padding-right: 35px; 
 }
- .bck-box.bck-box-2 .bck-title, 
-    .bck-box.bck-box2 .bck-title {
+.bck-box.bck-box-2:before {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 160px;
+    background-image: url(images/icono_caja3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -30px;
+    right: -34px;
+}
+ .bck-box.bck-box-2 .bck-title{
     color: black;
     font-weight: bold;
     font-size: inherit;
+    padding: 0;
 }
-.bck-box.bck-box-2 .bck-content, 
-    .bck-box.bck-box2 .bck-content {
+.bck-box.bck-box-2 .bck-content{
     padding: 0;
 }
 
 /*CAJA 3 */
 .bck-box.bck-box-3 {
-    margin: 25px 0px 20px;
-    padding: 0;
+    background-color: #F6DFEC;
+    margin: 40px 0 20px 0;
+    border-radius: 0 15px 15px 0px;
     border: 0;
+    -moz-box-shadow: 3px 2px 8px 2px #0000002e;
+    -webkit-box-shadow: 3px 2px 8px 2px #0000002e;
+    box-shadow: 3px 2px 8px 2px #0000002e;
+    position: relative;
+    padding-right: 35px; 
+}
+.bck-box.bck-box-3:before {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 160px;
+    background-image: url(images/icono_caja4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -30px;
+    right: -34px;
 }
 .bck-box.bck-box-3 .bck-title {
-    font-weight: normal;
-    color: var(--colorppal);
-    border: 0;
+    color: black;
+    font-weight: bold;
     font-size: inherit;
-    margin-bottom: 12px;
-    font-size: 30px;
+    padding: 0;
 }
 .bck-box.bck-box-3 .bck-content {
-    padding: 20px;
-    border: 2px dashed var(--colorppal);
+    padding: 0;
 }
 
 /*Desplegable*/
