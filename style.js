@@ -33,9 +33,12 @@
 				{ name: 'Lista Desordenada 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' } },
 				{ name: 'Lista Desordenada 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2' } },
 
-				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
-				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
-				{ name: 'Caja 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
+				{ name: 'Caja 01 Borde Lateral auto', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
+				{ name: 'Caja 02 Interrogacion', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
+				{ name: 'Caja 03 Exclamacion', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
+				{ name: 'Caja 04 Borde Lateral Morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
+				{ name: 'Caja 05 Simple Azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-5' } },
+				{ name: 'Caja 06 Simple Lectura', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-6' } },
 
 				{ name: 'Tabla 01', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-1'} },
 				{ name: 'Table 02', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-2'} },
