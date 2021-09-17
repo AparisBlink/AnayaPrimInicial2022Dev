@@ -166,7 +166,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 body {
 	font-weight: normal;
 	text-align: left;
-	font-family: 'Inter', sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 }
 .texto_curso p {
 	line-height: 25px !important;
@@ -809,7 +809,7 @@ content: "";
     position: relative;
     text-align: left;
     font-size: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 	margin-left: -10px; 
 	left: 0;
 	width: auto;
@@ -842,7 +842,7 @@ content: "";
   #actividad .popover-content .bck-ol1 li:before,
    #actividad .content .workspace ul li .bck-ol1 li:before {
     content: counter(bck-li-counter) ".";
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-weight: normal;
     position: relative;
     color: inherit;
