@@ -170,7 +170,7 @@ body {
 }
 .texto_curso p {
 	line-height: 25px !important;
-	margin: 10px 0;
+	margin: 0 0 10px 0;
 }
 .texto_curso p:last-of-type {
     margin-bottom: 10px;
@@ -405,12 +405,12 @@ body #actividad a.bck-file-attach,
 }
 .bck-title-1, 
     .bck-title1 {
-        color: var(--Materialppal);
-        font-size: 32px;
-        font-weight: normal;
-        line-height: 3.0rem;
-        margin: 10px 0 10px 0px;
-        font-family: 'Lalezar';
+    color: var(--Materialppal);
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 3.0rem;
+    margin: 20px 0 10px 0px;
+    font-family: 'Lalezar';
 }
 .bck-title-2,
 .bck-title2 {
