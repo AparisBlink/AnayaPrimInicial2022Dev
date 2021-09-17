@@ -170,10 +170,10 @@ body {
 }
 .texto_curso p {
 	line-height: 25px !important;
-	margin: 15px 0;
+	margin: 10px 0;
 }
 .texto_curso p:last-of-type {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #actividad .texto_curso {
@@ -438,12 +438,27 @@ body #actividad a.bck-file-attach,
     font-family: 'Lalezar';
 }
 .bck-title-5 {
-    font-size: 34px;
-    margin: 15px 0;
-    line-height: 30px;
-    color: var(--Apartadoppal);
+    font-size: 18px;
+    margin: 5px 0;
+    color: #00A65D;
+    font-family: 'Lalezar';
+    text-transform: uppercase;
+}
+.bck-title-6 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: var(--colorppal);
     font-family: 'Lalezar';
 }
+.bck-title-7 {
+    color: #00A65D;
+    font-weight: bold;
+    margin: 15px 0px 10px 0;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
 
 
 /*Énfasis */
