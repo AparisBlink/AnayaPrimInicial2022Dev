@@ -663,6 +663,51 @@ body #actividad a.bck-file-attach,
     border-bottom: 3px solid #F68B1F;
 }
 
+/*CAJA 8*/
+.bck-box.bck-box-8 {
+    border-width: 2px;
+    position: relative;
+    padding: 0;
+}
+.bck-box.bck-box-8 .bck-title {
+    background-color: var(--Materiappal);
+    display: inline-block;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 100%;
+    position: absolute;
+    top: -12px;
+    left: -15px;
+    z-index: 1;
+    font-size: 22px;
+}
+
+/*Caja 9*/
+.bck-box.bck-box-9 {
+    border-width: 2px;
+    position: relative;
+    padding: 0;
+}
+.bck-box.bck-box-9 .bck-title {
+    background-color: var(--Materiappal);
+    display: inline-block;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 100%;
+    position: absolute;
+    top: -12px;
+    right: -15px;
+    z-index: 1;
+    font-size: 22px;
+}
+
+/*Caja 9*/
+.bck-box.bck-box-9 {
+    border-width: 2px;
+    position: relative;
+    padding: 0;
+}
+
 /*Desplegable*/
 
 /*---*/
@@ -1225,6 +1270,7 @@ body:not(.edit) #actividad a.zoom_flag_img {
 }
 #actividad .content img {
     margin-top: 0;
+    border-radius: 0;
 }
 
 /*
