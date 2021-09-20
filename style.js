@@ -46,9 +46,12 @@
 				{ name: 'Caja 09 IMG Bolo Der', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
 				{ name: 'Caja 10 IMG redonda', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
 
-				{ name: 'Tabla 01', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-1'} },
-				{ name: 'Table 02', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-2'} },
-				{ name: 'Table 03', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-3'} },
+				{ name: 'Tabla 01 Castellano', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-1'} },
+				{ name: 'Tabla 02 Naturales', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-2'} },
+				{ name: 'Tabla 03 Matematicas', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-3'} },
+				{ name: 'Tabla 04 Sociales', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-4'} },
+				{ name: 'Tabla 05 Catalan', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-5'} },
+				{ name: 'Table 06 Extra', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-6'} },
 
 				{ name: 'Cell 01', element: 'td', attributes: { 'class': 'bck-td bck-td-1'} },
 				{ name: 'Cell 02', element: 'td', attributes: { 'class': 'bck-td bck-td-2'} },
