@@ -726,35 +726,41 @@ body:not(.edit) .bck-flipbox {
 
 body:not(.edit) .bck-flipbox-face.front {
     border: 0;
-    -moz-box-shadow: 0px 5px 9px var(--colortrans);
-    -webkit-box-shadow: 0px 5px 9px var(--colortrans);
-    box-shadow: 0px 5px 9px var(--colortrans);
+    -moz-box-shadow: 0px 5px 9px #d2d2d2;
+    -webkit-box-shadow: 0px 5px 9px #d2d2d2;
+    box-shadow: 0px 5px 9px #d2d2d2;
     color: white;
-    background-color: var(--colorppal);
+    background-color: var(--Materiappal);
     padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
+    border-radius: 0 15px 15px 0px;
 }
 body:not(.edit) .bck-flipbox-face.back {
     color: #595959;
-    border: 2px solid #000000;
     background: #FFF;
+    padding: 20px;
+    background-color: var(--Materiatrans);
+    border: 0;
+    border-left: 3px solid var(--Materiappal);
+    border-radius: 0 15px 15px 0;
+    -moz-box-shadow: 0px 5px 9px #d2d2d2;
+    -webkit-box-shadow: 0px 5px 9px #d2d2d2;
+    box-shadow: 0px 5px 9px #d2d2d2;
 }
 body:not(.edit) .front .bck-flipbox-title,
  body:not(.edit) .front .bck-flipbox-section {
     color: #fff;
-    border: 1px solid #333333;
     width: 100%;
-    padding: 20px;
-    font-weight: bold;
+    padding: 0;
+    font-weight: normal;
+    text-align: left;
 }
 body:not(.edit) .back .bck-flipbox-title,
  body:not(.edit) .back .bck-flipbox-section {
     color: #000;
-    padding: 20px;
-    font-size: 16px;
 }
 body:not(.edit)  .bck-flipbox-title,
  body:not(.edit) .bck-flipbox-section p {
