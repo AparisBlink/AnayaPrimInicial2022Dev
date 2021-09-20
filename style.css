@@ -1052,7 +1052,7 @@ content: "";
 }
 .info-popover .popover-content, .popover-template .popover-content {
     display: block;
-    background: #fff;
+    background: #000;
     padding: 10px 15px;
     font-size: 16px;
 }
