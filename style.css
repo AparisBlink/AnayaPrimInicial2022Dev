@@ -465,7 +465,7 @@ body #actividad a.bck-file-attach,
     font-family: serif;
 }
 .bck-enfasis-3 {
-    color: #F68B1F;
+    color: var(--Materiappal);
     font-size: 16px;
 }
 .bck-enfasis-4 {
@@ -507,11 +507,11 @@ body #actividad a.bck-file-attach,
     display: none;
 }
 .bck-box.bck-box-1 {
-    background-color: #FDDDBD;
+    background-color: var(--Materiatrans);
     margin: 20px 0;
     border-radius: 0 15px 15px 0px;
     border: 0;
-    border-left: 5px solid #F68B1F;
+    border-left: 5px solid var(--Materiappal);
     -moz-box-shadow: 3px 2px 8px 2px #0000002e;  
     -webkit-box-shadow: 3px 2px 8px 2px #0000002e;  
     box-shadow: 3px 2px 8px 2px #0000002e;  
