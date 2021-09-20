@@ -702,10 +702,11 @@ body #actividad a.bck-file-attach,
 }
 
 /*Caja 9*/
-.bck-box.bck-box-9 {
+.bck-box.bck-box-10 {
     border-width: 2px;
     position: relative;
     padding: 0;
+    border-radius: 20px;
 }
 
 /*Desplegable*/
