@@ -761,6 +761,7 @@ body:not(.edit) .front .bck-flipbox-title,
 body:not(.edit) .back .bck-flipbox-title,
  body:not(.edit) .back .bck-flipbox-section {
     color: #000;
+    padding: 0;
 }
 body:not(.edit)  .bck-flipbox-title,
  body:not(.edit) .bck-flipbox-section p {
