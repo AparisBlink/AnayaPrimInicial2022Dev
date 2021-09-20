@@ -708,6 +708,12 @@ body #actividad a.bck-file-attach,
     padding: 0;
     border-radius: 20px;
 }
+#actividad .content .bck-box-10 img {
+    border-radius: 17px;
+}
+body:not(.edit) #actividad .bck-box-10 a.zoom_flag_img {
+    border-radius: 0 15px 0 0;
+}
 
 /*Desplegable*/
 
@@ -1679,6 +1685,21 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 	max-width: 189px;
 }
 
+/*Celda*/
+table td.bck-td-1 {
+    color: #000;
+    background-color: var(--colorppal);
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+table td.bck-td-2 {
+    background-color: var(--colortrans);
+}
+table td.bck-td-3 {
+    background-color: #EAEAEA;
+}
+
 /**TABLA**/
 table,
 .bck-table {
@@ -1691,41 +1712,115 @@ table td,
     font-size: 15px;
 }
 
+/*Tabla 1 Castellano*/
 .bck-table-1 {
-	border-color: var(--colorppal);
+	border-color: #EE1B2C;
 }
 .bck-table-1 td {
-	border-color: var(--colorppal);
-    font-size: 15px;
+	border-color: #EE1B2C;
+}
+.bck-table-1 td.bck-td-1 {
+    background-color: #EE1B2C;
+}
+.bck-table-1 td.bck-td-2 {
+    background-color: #FBC9B7;
+}
+.bck-table-1 td.bck-td-3 {
+    background-color: #EAEAEA;
 }
 
+/*Tabla 2 Naturales*/
 .bck-table-2 {
-	border-color: var(--GrisAnaya);
+	border-color: #00A65D;
 }
 .bck-table-2 td {
-	border-color: var(--GrisAnaya);
-    font-size: 15px;
+	border-color: #00A65D;
 }
+.bck-table-2 td.bck-td-1 {
+    background-color: #00A65D;
+}
+.bck-table-2 td.bck-td-2 {
+    background-color: #BFE2CF;
+}
+.bck-table-2 td.bck-td-3 {
+    background-color: #EAEAEA;
+}
+
+/*Tabla 3 Matematicas*/
+.bck-table-3 {
+	border-color: #0071AD;
+}
+.bck-table-3 td {
+	border-color: #0071AD;
+}
+.bck-table-3 td.bck-td-1 {
+    background-color: #0071AD;
+}
+.bck-table-3 td.bck-td-2 {
+    background-color: #BACCE4;
+}
+.bck-table-3 td.bck-td-3 {
+    background-color: #EAEAEA;
+}
+
+/*Tabla 4 Sociales*/
+.bck-table-4 {
+	border-color: #F36E21;
+}
+.bck-table-4 td {
+	border-color: #F36E21;
+}
+.bck-table-4 td.bck-td-1 {
+    background-color: #F36E21;
+}
+.bck-table-4 td.bck-td-2 {
+    background-color: #FDD6BA;
+}
+.bck-table-4 td.bck-td-3 {
+    background-color: #EAEAEA;
+}
+
+/*Tabla 5 Catalan*/
+.bck-table-5 {
+	border-color: #F68B1F;
+}
+.bck-table-5 td {
+	border-color: #F68B1F;
+}
+.bck-table-5 td.bck-td-1 {
+    background-color: #F68B1F;
+}
+.bck-table-5 td.bck-td-2 {
+    background-color: #FDDDBD;
+}
+.bck-table-5 td.bck-td-3 {
+    background-color: #EAEAEA;
+}
+
+/*Tabla 6 Extra*/
+.bck-table-6 {
+	border-color: #DA6FAC;
+}
+.bck-table-6 td {
+	border-color: #DA6FAC;
+}
+.bck-table-6 td.bck-td-1 {
+    background-color: #DA6FAC;
+}
+.bck-table-6 td.bck-td-2 {
+    background-color: #F2D1E3;
+}
+.bck-table-6 td.bck-td-3 {
+    background-color: #EAEAEA;
+}
+
 
 td,
 th {
 	padding-left: 10px;
 }
 
-/*Celda*/
-table td.bck-td-1 {
-    color: #000;
-    background-color: var(--colorppal);
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-}
-table td.bck-td-2 {
-    background-color: #EAEAEA;
-}
-table td.bck-td-3 {
-    background-color: var(--colortrans);
-}
+
 
 
 
