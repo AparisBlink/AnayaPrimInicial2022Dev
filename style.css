@@ -942,13 +942,37 @@ content: "";
   #actividad .content .workspace ul li ol.bck-ol-2 li:before {
     content: counter(bck-li-counter) ".";
     position: absolute;
-    font-size: 28px;
     width: 60px;
     margin-top: 0px;
     left: -64px;
-    top: -4px;
+    top: 0px;
     margin-left: 0px;
     color: #8BC63E;
+    text-align: right;
+}
+
+/*Lista ordenada 3*/
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .content .texto_curso .bck-ol-3 li,
+ #actividad .popover-content .bck-ol-3 li,
+  #actividad .content .workspace ul li .bck-ol-3 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    margin-left: 22px;
+}
+#actividad .content .cke_contents ol.bck-ol-3 li:before,
+#actividad .content .texto_curso ol.bck-ol-3 li:before,
+ #actividad .popover-content ol.bck-ol-3 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-3 li:before {
+    content: counter(bck-li-counter,lower-alpha) ".";
+    position: absolute;
+    width: 60px;
+    margin-top: 0px;
+    left: -64px;
+    top: 0px;
+    margin-left: 0px;
+    color: var(--Apartadoppal);
     text-align: right;
 }
 
