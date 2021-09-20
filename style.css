@@ -778,7 +778,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     margin-bottom: 10px;
     margin-left: 0;
     line-height: inherit;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 25px !important;
 }
 #actividad .content .texto_curso .bck-ul,
@@ -826,17 +826,15 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 #actividad .content .workspace ul li .bck-ul li::before,
 #actividad .content .cke_contents ul li .bck-ul li::before,
 #actividad .popover-background.shown .popover-content>ul>li::before {
-	content: "";
-	height: 6px;
-	width: 6px;
-	background-color: var(--GrisAnaya);
-	color: var(--GrisAnaya);
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	position: absolute;
-	margin-top: 10px;
-	margin-left: -10px;
+    content: "";
+    height: 6px;
+    width: 6px;
+    background-color: var(--Materialppal);
+    color: var(--Materialppal);
+    border-radius: 0;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -10px;
 }
 
 /*Lista desordenada 1*/
