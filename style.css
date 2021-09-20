@@ -901,6 +901,7 @@ content: "";
     z-index: 0;
     font-weight: normal;
     color: #000;
+    margin-left: 22px;
 }
 #actividad .content .cke_contents .bck-ol-1 li:before,
  #actividad .content .texto_curso .bck-ol-1 li:before,
@@ -915,14 +916,14 @@ content: "";
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     position: absolute;
-    color: inherit;
     font-size: 28px;
-    width: auto;
+    width: 60px;
     margin-top: 0px;
-    left: -51px;
-    top: 0px;
+    left: -64px;
+    top: -4px;
     margin-left: 0px;
     color: var(--Materialppal);
+    text-align: right;
 }
 
 /*Lista ordenada 2*/
@@ -938,13 +939,16 @@ content: "";
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
  #actividad .popover-content ol.bck-ol-2 li:before,
   #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-    content: counter(bck-li-counter, lower-alpha) ")";
-    padding-right: 0px;
-    text-align: center;
-    color: inherit;
-    font-weight: normal;
-    margin-right: 5px;
-    top: 0;
+    content: counter(bck-li-counter) ".";
+    position: absolute;
+    font-size: 28px;
+    width: 60px;
+    margin-top: 0px;
+    left: -64px;
+    top: -4px;
+    margin-left: 0px;
+    color: #8BC63E;
+    text-align: right;
 }
 
 
