@@ -28,8 +28,9 @@
 				{ name: 'Énfasis 04', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
 
 
-				{ name: 'Lista Ordenada 01', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
-				{ name: 'Lista Ordenada 02', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
+				{ name: 'Lista 123 Auto', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
+				{ name: 'Lista 123 Verde', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
+				{ name: 'Lista abc Auto', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
 
 				{ name: 'Lista Desordenada 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' } },
 				{ name: 'Lista Desordenada 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2' } },
