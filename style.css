@@ -724,7 +724,7 @@ body:not(.edit) #actividad .bck-box-10 a.zoom_flag_img {
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
-    color: #000;
+    color: white;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
@@ -747,11 +747,11 @@ body:not(.edit) #actividad .bck-box-10 a.zoom_flag_img {
   .body_clase #actividad .bck-dropdown .bck-dropdown-icon {
     position: absolute;
     right: 1.1rem;
-    color:#000;
+    color:white;
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-icon>.fa {
-    color: #000;
+    color: white;
     border: none;
     padding: 0;
     font-size: 18px;
@@ -1048,7 +1048,7 @@ content: "";
     background: none;
     color: #fff;
     font-size: 18px;
-    color: #000;
+    color: white;
     border-bottom: 0;
     font-weight: bold;
     background-color: var(--colorppal);
@@ -1061,7 +1061,7 @@ content: "";
     font-size: 16px;
 }
 .close-popover {
-    color: #000;
+    color: white;
     top: 8px;
 }
 .info-template .info-title {
@@ -1593,7 +1593,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    color: #000;
+    color: white;
     background: #E0E0E0;
     font-weight: 700;
     padding: 10px 15px;
@@ -1609,7 +1609,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     -webkit-border-radius: 5px;
     border-radius: 5px;
     border: 0;
-    color: #000;
+    color: white;
     padding: 10px 15px;
     font-size: 16px;
     font-weight: bold;
@@ -1619,7 +1619,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    color: #000;
+    color: white;
     background: #E0E0E0;
 	font-weight: 700;
 }
@@ -1628,7 +1628,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
   .btn-danger:active,
    .btn-danger.active,
     .open .dropdown-toggle.btn-danger {
-        color: #000;
+        color: white;
         background-color: var(--colorppal);
 }
 
@@ -1638,20 +1638,20 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 .btn-primary:not([disabled]):hover,
 .open .dropdown-toggle.btn-primary {
     background-color: var(--colorppal);
-    color: #000;
+    color: white;
 }
 #actividad .content .review .attemps span {
     background-color: #E0E0E0;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    color: #000;
+    color: white;
     font-weight: normal;
     font-size: 16px;
 }
 .btn-primary[disabled],
 .btn-primary[disabled]:focus {
-    color: #000;
+    color: white;
     background-color: #E5E5E5;
     border-color: #E5E5E5;
 }
@@ -1687,7 +1687,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 
 /*Celda*/
 table td.bck-td-1 {
-    color: #000;
+    color: white;
     background-color: var(--colorppal);
     font-weight: bold;
     text-align: center;
