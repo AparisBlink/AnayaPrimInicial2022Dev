@@ -9,7 +9,8 @@
 	--colortrans: #0071ad4f;
     --GrisAnaya: #898989;
 
-    --Materialppal: #D1232A;
+    --Materiappal: #EE1B2C;
+    --Materiatrans: #FBC9B7;
 
     --Apartadoppal:#F68B1F;
 }
@@ -404,7 +405,7 @@ body #actividad a.bck-file-attach,
 	display: none;
 }
 .bck-title-1 {
-    color: var(--Materialppal);
+    color: var(--Materiappal);
     font-size: 32px;
     font-weight: normal;
     line-height: 3.0rem;
@@ -829,8 +830,8 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     content: "";
     height: 6px;
     width: 6px;
-    background-color: var(--Materialppal);
-    color: var(--Materialppal);
+    background-color: var(--Materiappal);
+    color: var(--Materiappal);
     border-radius: 0;
     position: absolute;
     margin-top: 10px;
@@ -920,7 +921,7 @@ content: "";
     left: -64px;
     top: -4px;
     margin-left: 0px;
-    color: var(--Materialppal);
+    color: var(--Materiappal);
     text-align: right;
 }
 
@@ -970,7 +971,7 @@ content: "";
     left: -64px;
     top: 0px;
     margin-left: 0px;
-    color: var(--Materialppal);
+    color: var(--Materiappal);
     text-align: right;
     font-size: inherit
 }
@@ -1726,3 +1727,27 @@ and (max-width : 480px) {
 }	
 }
 
+
+
+/*Coursetags*/
+
+/*.coursetag_anayaprimnaturales*/
+.coursetag_anayaprimnaturales {
+--Materiappal: #00A65D;
+--Materiatrans: #BFE2CF;
+}
+/*.coursetag_anayaprimcatalan*/
+.coursetag_anayaprimcatalan {
+--Materiappal: #F68B1F;
+--Materiatrans: #FDDDBD;
+}
+/*.coursetag_anayaprimsociales*/
+.coursetag_anayaprimsociales {
+    --Materiappal: #F36E21;
+    --Materiatrans: #FDD6BA;
+}
+/*.coursetag_anayaprimmatematicas*/
+.coursetag_anayaprimmatematicas {
+    --Materiappal: #0071AD;
+    --Materiatrans: #BACCE4;
+}
