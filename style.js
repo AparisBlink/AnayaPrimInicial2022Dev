@@ -42,6 +42,10 @@
 				{ name: 'Caja 05 Simple Azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-5' } },
 				{ name: 'Caja 06 Simple Lectura', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-6' } },
 				{ name: 'Caja 07 Vocabulario', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-7' } },
+				{ name: 'Caja 08 IMG Bolo Izq', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-8' } },
+				{ name: 'Caja 09 IMG Bolo Der', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
+				{ name: 'Caja 10 IMG', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
+				{ name: 'Caja 11 IMG redonda', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
 
 				{ name: 'Tabla 01', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-1'} },
 				{ name: 'Table 02', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-2'} },
