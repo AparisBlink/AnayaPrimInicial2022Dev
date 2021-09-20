@@ -759,16 +759,12 @@ body:not(.edit) #actividad .bck-box-10 a.zoom_flag_img {
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-content {
     width: 100%;
-    padding: 15px 20px 20px 20px;
+    padding: 25px 20px 20px 20px;
     background-color: #E5E5E5;
     margin-top: -15px;
     max-height: 600px;
-    font-size: 15px;
     border-radius: 0 12px 12px 0;
 }
-  .body_clase #actividad .bck-dropdown .bck-dropdown-content p {
-    line-height: 22px !important;
-  }
 /*---*/
 /*Flipbox*/
 body:not(.edit) .bck-flipbox {
@@ -1171,9 +1167,11 @@ content: "";
     background-color: var(--colorppal);
     border-bottom: 0;
     border-radius: 5px 5px 0 0;
+    color: white;
 }
 .popover-content {
     padding: 0px 14px 10px 14px;
+    color: white;
 }
 .popover.top>.arrow:after {
     border-top-color: var(--colorppal);
@@ -1726,10 +1724,10 @@ table td,
     background-color: #EE1B2C;
 }
 .bck-table-1 td.bck-td-2 {
-    background-color: #FBC9B7;
+    background-color: #fcac8f;
 }
 .bck-table-1 td.bck-td-3 {
-    background-color: #fcac8f;
+    background-color: #FBC9B7;
 }
 
 /*Tabla 2 Naturales*/
@@ -1743,10 +1741,10 @@ table td,
     background-color: #00A65D;
 }
 .bck-table-2 td.bck-td-2 {
-    background-color: #BFE2CF;
+    background-color: #a1e3bf;
 }
 .bck-table-2 td.bck-td-3 {
-    background-color: #a1e3bf;
+    background-color: #BFE2CF;
 }
 
 /*Tabla 3 Matematicas*/
@@ -1760,10 +1758,10 @@ table td,
     background-color: #0071AD;
 }
 .bck-table-3 td.bck-td-2 {
-    background-color: #BACCE4;
+    background-color: #97b6df;
 }
 .bck-table-3 td.bck-td-3 {
-    background-color: #97b6df;
+    background-color: #BACCE4;
 }
 
 /*Tabla 4 Sociales*/
@@ -1777,10 +1775,10 @@ table td,
     background-color: #F36E21;
 }
 .bck-table-4 td.bck-td-2 {
-    background-color: #FDD6BA;
+    background-color: #ffc092;
 }
 .bck-table-4 td.bck-td-3 {
-    background-color: #ffc092;
+    background-color: #FDD6BA;
 }
 
 /*Tabla 5 Catalan*/
@@ -1794,10 +1792,10 @@ table td,
     background-color: #F68B1F;
 }
 .bck-table-5 td.bck-td-2 {
-    background-color: #FDDDBD;
+    background-color: #ffbf7e;
 }
 .bck-table-5 td.bck-td-3 {
-    background-color: #ffbf7e;
+    background-color: #FDDDBD;
 }
 
 /*Tabla 6 Extra*/
@@ -1811,10 +1809,10 @@ table td,
     background-color: #DA6FAC;
 }
 .bck-table-6 td.bck-td-2 {
-    background-color: #F2D1E3;
+    background-color: #f3b0d5;
 }
 .bck-table-6 td.bck-td-3 {
-    background-color: #f3b0d5;
+    background-color: #F2D1E3;
 }
 
 
