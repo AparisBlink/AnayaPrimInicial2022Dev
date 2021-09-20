@@ -800,7 +800,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 	padding-left: 20px;
 }
 #actividad .content ul.bck-ul li {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .texto_curso ul li:before,
@@ -870,7 +870,7 @@ content: "";
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
-    font-size: 15px;
+    font-size: 18px;
 }
 #actividad .content .texto_curso .bck-ol li:before,
  #actividad .popover-content .bck-ol li:before,
@@ -878,7 +878,7 @@ content: "";
 	content: counter(bck-li-counter);
     position: relative;
     text-align: left;
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'DM Sans', sans-serif;
 	margin-left: -10px; 
 	left: 0;
@@ -932,8 +932,9 @@ content: "";
  #actividad .popover-content .bck-ol-2 li,
   #actividad .content .workspace ul li .bck-ol-2 li {
     counter-increment: bck-li-counter;
-    padding-left: 10px;
+    padding-left: 0;
     position: relative;
+    margin-left: 22px;
 }
 #actividad .content .cke_contents ol.bck-ol-2 li:before,
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
