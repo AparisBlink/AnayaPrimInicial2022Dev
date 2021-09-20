@@ -1063,9 +1063,7 @@ content: "";
 .info-template .info-title {
 	color: #333;
 }
-.info-template .info-title.shown {
-    color: white;
-}
+
 .info-template .info-title.shown:before {
 	display: none;
 }
@@ -1140,7 +1138,7 @@ content: "";
 }
 .info-template .info-title.shown {
     margin: 5px 10px;
-    color: #000;
+    color: white;
     font-weight: bold;
     font-size: 14px;
     padding: 0 0 6px 0;
