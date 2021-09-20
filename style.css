@@ -517,7 +517,7 @@ body #actividad a.bck-file-attach,
     box-shadow: 3px 2px 8px 2px #0000002e;  
 }
 .bck-box.bck-box-1 .bck-title {
-    color: black;
+    color: #000;
     font-weight: bold;
     font-size: inherit;
 }
@@ -552,7 +552,7 @@ body #actividad a.bck-file-attach,
     right: -34px;
 }
  .bck-box.bck-box-2 .bck-title{
-    color: black;
+    color: #000;
     font-weight: bold;
     font-size: inherit;
     padding: 0;
@@ -585,7 +585,7 @@ body #actividad a.bck-file-attach,
     right: -34px;
 }
 .bck-box.bck-box-3 .bck-title {
-    color: black;
+    color: #000;
     font-weight: bold;
     font-size: inherit;
     padding: 0;
@@ -606,7 +606,7 @@ body #actividad a.bck-file-attach,
     box-shadow: 3px 2px 8px 2px #0000002e;  
 }
 .bck-box.bck-box-4 .bck-title {
-    color: black;
+    color: #000;
     font-weight: bold;
     font-size: inherit;
 }
@@ -622,7 +622,7 @@ body #actividad a.bck-file-attach,
     border: 0;
 }
 .bck-box.bck-box-5 .bck-title {
-    color: black;
+    color: #000;
     font-weight: bold;
     font-size: inherit;
 }
@@ -638,7 +638,7 @@ body #actividad a.bck-file-attach,
     border: 0;
 }
 .bck-box.bck-box-6 .bck-title {
-    color: black;
+    color: #000;
     font-weight: bold;
     font-size: inherit;
 }
@@ -1052,7 +1052,7 @@ content: "";
 }
 .info-popover .popover-content, .popover-template .popover-content {
     display: block;
-    background: #000;
+    background: white;
     padding: 10px 15px;
     font-size: 16px;
 }
@@ -1169,7 +1169,7 @@ content: "";
 }
 .popover-content {
     padding: 0px 14px 10px 14px;
-    color: white;
+    color: #000;
 }
 .popover.top>.arrow:after {
     border-top-color: var(--colorppal);
