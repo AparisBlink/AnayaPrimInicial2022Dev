@@ -913,16 +913,16 @@ content: "";
    #actividad .content .workspace ul li .bck-ol1 li:before {
     content: counter(bck-li-counter) ".";
     font-family: 'DM Sans', sans-serif;
-    font-weight: normal;
-    position: relative;
+    font-weight: bold;
+    position: absolute;
     color: inherit;
-    font-size: 15px;
+    font-size: 28px;
     width: auto;
     margin-top: 0px;
-    left: 0;
+    left: -51px;
     top: 0px;
-    margin-right: 5px;
     margin-left: 0px;
+    color: var(--Materialppal);
 }
 
 /*Lista ordenada 2*/
