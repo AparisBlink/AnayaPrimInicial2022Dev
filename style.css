@@ -965,15 +965,16 @@ content: "";
 #actividad .content .texto_curso ol.bck-ol-3 li:before,
  #actividad .popover-content ol.bck-ol-3 li:before,
   #actividad .content .workspace ul li ol.bck-ol-3 li:before {
-    content: counter(bck-li-counter,lower-alpha) ".";
+    content: counter(bck-li-counter,lower-alpha) ")";
     position: absolute;
     width: 60px;
     margin-top: 0px;
     left: -64px;
     top: 0px;
     margin-left: 0px;
-    color: var(--Apartadoppal);
+    color: var(--Materialppal);
     text-align: right;
+    font-size: inherit
 }
 
 
