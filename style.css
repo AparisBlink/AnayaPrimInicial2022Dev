@@ -1067,6 +1067,9 @@ content: "";
 .info-template .info-title {
 	color: #333;
 }
+.info-template .info-title.shown {
+    color: white;
+}
 .info-template .info-title.shown:before {
 	display: none;
 }
