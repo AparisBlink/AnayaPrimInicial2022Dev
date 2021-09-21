@@ -335,7 +335,7 @@ body.is_app .AnayaPrimInicial2022Dev-navbar.ocultar {
 
 /*Icono audio*/
 #actividad .player.audio {
-	background-image: url(images/Anaya_2022_audio.png);
+	background-image: url(images/icono_play.png);
 	color: #fff;
     background-color: var(--colorppal) !important;
 }
