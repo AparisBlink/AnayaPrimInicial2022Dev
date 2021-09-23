@@ -1350,8 +1350,8 @@ hr {
     box-shadow: 0 4px 7px var(--colortrans);
 }
 #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    background-color: var(--colorppal);
-    border-color: var(--colorppal);
+    background-color: var(--colortrans);
+    border: 1px solid #b0d3e6;
     font-weight: bold;
 }
 /*Rellenar espacios*/
@@ -1430,6 +1430,9 @@ hr {
     -webkit-box-shadow: 2px 3px 6px var(--colortrans);
     box-shadow: 2px 3px 6px var(--colortrans);
     border: 1px solid var(--colorppal);	
+}
+#actividad .workspace.ordenar li>p {
+    border: 1px solid white;
 }
 /*Verdadero y falso*/
 
@@ -1658,7 +1661,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 .btn-solution,
 .btn-solution.disabled,
 .btn-solution[disabled] {
-    color: #00bdff;
+    color: #005472;
     background-color: #cff3ff;
     border: 0;
     border-radius: 5px;
