@@ -1584,11 +1584,19 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     background-color: #e7ffd1;
     border-bottom: 2px solid #74d320;
 }
-/*parejas cartas*/
-#actividad .workspace.memory .flip-container p {
-	font-size: 1.5rem;
+/*Memomory*/
+#actividad .workspace.memory {
+    text-align: center;
 }
-
+#actividad .workspace.memory .flip-container p {
+	font-size: 18px;
+}
+#actividad .workspace.memory .flip-container,
+ .front, 
+ .back {
+    float: none;
+    display: inline-block;
+}
 
 /*botonera general*/
 #actividad .class_slide .review {
@@ -1597,8 +1605,8 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 	margin-left: 0px;
 }
 
-.btn-danger,
-.btn-danger[disabled] {
+body:not(.edit) .btn-danger,
+body:not(.edit) .btn-danger[disabled] {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -1624,11 +1632,11 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     font-weight: bold;
 }
 
-.btn-danger:hover,
- .btn-danger:focus,
-  .btn-danger:active,
-   .btn-danger.active,
-    .open .dropdown-toggle.btn-danger {
+body:not(.edit) .btn-danger:hover,
+ body:not(.edit) .btn-danger:focus,
+  body:not(.edit) .btn-danger:active,
+   body:not(.edit) .btn-danger.active,
+    body:not(.edit) .open .dropdown-toggle.btn-danger {
         color: white;
         background-color: #487b18;
 }
