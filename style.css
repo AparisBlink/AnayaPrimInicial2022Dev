@@ -252,7 +252,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background: none;
     color: var(--colorppal);
     padding: 0;
-    font-size: 48px;
+    font-size: 55px;
     border: 0;
     font-weight: bold;
     font-family: 'Lalezar', cursive;
@@ -434,14 +434,14 @@ body #actividad a.bck-file-attach,
     font-family: 'Lalezar';
 }
 .bck-title-5 {
-    font-size: 18px;
+    font-size: 21px;
     margin: 10px 0 2px 0;
     color: #00A65D;
     font-family: 'Lalezar';
     text-transform: uppercase;
 }
 .bck-title-6 {
-    font-size: 18px;
+    font-size: 21px;
     margin: 10px 0 2px 0;
     color: var(--colorppal);
     font-family: 'Lalezar';
@@ -654,13 +654,16 @@ body #actividad a.bck-file-attach,
 .bck-box.bck-box-7 .bck-title {
     font-family: 'Lalezar';
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 18px;
 }
 .bck-box.bck-box-7 .bck-content {
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
     background-color: #FDDDBD;
     border-bottom: 3px solid #F68B1F;
+}
+.bck-box.bck-box-7 .bck-content p {
+    line-height: 22px !important;   
 }
 
 /*CAJA 8*/
@@ -932,7 +935,7 @@ content: "";
 	content: counter(bck-li-counter);
     position: relative;
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'DM Sans', sans-serif;
 	margin-left: -10px; 
 	left: 0;
@@ -970,11 +973,11 @@ content: "";
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     position: absolute;
-    font-size: 28px;
+    font-size: 30px;
     width: 60px;
     margin-top: 0px;
     left: -64px;
-    top: -4px;
+    top: -6px;
     margin-left: 0px;
     color: var(--Materiappal);
     text-align: right;
@@ -999,7 +1002,7 @@ content: "";
     width: 60px;
     margin-top: 0px;
     left: -64px;
-    top: 0px;
+    top: -1px;
     margin-left: 0px;
     color: #8BC63E;
     text-align: right;
@@ -1050,7 +1053,8 @@ content: "";
     background-color: var(--colorppal);
     padding: 15px 20px 15px 15px;
 }
-.info-popover .popover-content, .popover-template .popover-content {
+.info-popover .popover-content,
+ .popover-template .popover-content {
     display: block;
     background: white;
     padding: 10px 15px;
@@ -1170,6 +1174,9 @@ content: "";
 .popover-content {
     padding: 0px 14px 10px 14px;
     color: #000;
+}
+.popover.fade .popover-content {
+    color: white;
 }
 .popover.top>.arrow:after {
     border-top-color: var(--colorppal);
@@ -1700,7 +1707,7 @@ table,
 table td,
 .bck-table td {
 	border-color: #000;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 /*Tabla 1 Castellano*/
