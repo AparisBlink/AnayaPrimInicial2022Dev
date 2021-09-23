@@ -1599,8 +1599,8 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    color: #000;
-    background: #E0E0E0;
+    color: #487b18;
+    background: #79d02824;
     font-weight: 700;
     padding: 10px 15px;
     font-size: 16px;
@@ -1627,7 +1627,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
    .btn-danger.active,
     .open .dropdown-toggle.btn-danger {
         color: white;
-        background-color: var(--colorppal);
+        background-color: #487b18;
 }
 
 .btn-primary.active,
