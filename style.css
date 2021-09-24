@@ -176,7 +176,7 @@ body {
 	font-family: 'DM Sans', sans-serif;
 }
 .texto_curso p {
-	line-height: 28px !important;
+	line-height: var(--LineHeightGen) !important;
 	margin: 0 0 15px 0;
 }
 .texto_curso p:last-of-type {
@@ -842,7 +842,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     margin-bottom: 10px;
     margin-left: 0;
     font-size: var(--TextoGeneral);
-    line-height: inherit !important;
+    line-height: var(--LineHeightGen) !important;
 }
 #actividad .content .texto_curso .bck-ul,
 #actividad .content .cke_contents .bck-ul,
