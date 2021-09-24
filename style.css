@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 :root {
+    /*Colores*/
 	--colorppal: #0071AD;
 	--colortrans: #0071ad4f;
     --GrisAnaya: #898989;
@@ -13,6 +14,11 @@
     --Materiatrans: #FBC9B7;
 
     --Apartadoppal:#F68B1F;
+   
+    /*Tamaños textos*/
+    --TextoGeneral: 20px;
+    --TextoSecundario: 16px;
+    --LineHeightGen: 28px
 }
 
 b,
@@ -170,7 +176,7 @@ body {
 	font-family: 'DM Sans', sans-serif;
 }
 .texto_curso p {
-	line-height: 25px !important;
+	line-height: 28px !important;
 	margin: 0 0 15px 0;
 }
 .texto_curso p:last-of-type {
@@ -178,11 +184,11 @@ body {
 }
 
 #actividad .texto_curso {
-	font-size: 18px;
-	line-height: 25px !important;
+	font-size: var(--TextoGeneral);
+	line-height: var(--LineHeightGen);
 }
 #actividad .pregunta .texto_curso {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 .slide-wrapper {
 	text-align: left;
@@ -226,7 +232,7 @@ body {
 
 /*tamaño enunciado listas*/
 #actividad textarea {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 
 /*ENLACE WEB*/
@@ -241,7 +247,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	width: 75%;
 	margin: auto;
 	margin-bottom: 15px;
-	font-size: 18px;
+	font-size: var(--TextoGeneral);
 	font-weight: bold;
 }
 #actividad .content .header .title {
@@ -466,7 +472,7 @@ body #actividad a.bck-file-attach,
 }
 .bck-enfasis-3 {
     color: var(--Materiappal);
-    font-size: 16px;
+    font-size: var(--TextoGeneral - 2px);
 }
 .bck-enfasis-4 {
     color: #223F99;
@@ -486,7 +492,7 @@ body #actividad a.bck-file-attach,
     font-weight: bold;
     color: inherit;
     border: 0;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     padding: 0   
 }
 .bck-box .bck-content {
@@ -519,7 +525,7 @@ body #actividad a.bck-file-attach,
 .bck-box.bck-box-1 .bck-title {
     color: #000;
     font-weight: bold;
-    font-size: inherit;
+    font-size: var(--TextoGeneral);
 }
 .bck-box.bck-box-1 .bck-content {
     padding: 0;
@@ -554,7 +560,7 @@ body #actividad a.bck-file-attach,
  .bck-box.bck-box-2 .bck-title{
     color: #000;
     font-weight: bold;
-    font-size: inherit;
+    font-size: var(--TextoGeneral);
     padding: 0;
 }
 .bck-box.bck-box-2 .bck-content{
@@ -587,7 +593,7 @@ body #actividad a.bck-file-attach,
 .bck-box.bck-box-3 .bck-title {
     color: #000;
     font-weight: bold;
-    font-size: inherit;
+    font-size: var(--TextoGeneral);
     padding: 0;
 }
 .bck-box.bck-box-3 .bck-content {
@@ -608,7 +614,7 @@ body #actividad a.bck-file-attach,
 .bck-box.bck-box-4 .bck-title {
     color: #000;
     font-weight: bold;
-    font-size: inherit;
+    font-size: var(--TextoGeneral);
 }
 .bck-box.bck-box-4 .bck-content {
     padding: 0;
@@ -624,7 +630,7 @@ body #actividad a.bck-file-attach,
 .bck-box.bck-box-5 .bck-title {
     color: #000;
     font-weight: bold;
-    font-size: inherit;
+    font-size: var(--TextoGeneral);
 }
 .bck-box.bck-box-5 .bck-content {
     padding: 0;
@@ -640,7 +646,7 @@ body #actividad a.bck-file-attach,
 .bck-box.bck-box-6 .bck-title {
     color: #000;
     font-weight: bold;
-    font-size: inherit;
+    font-size: var(--TextoGeneral);
 }
 .bck-box.bck-box-6 .bck-content {
     padding: 0;
@@ -654,16 +660,15 @@ body #actividad a.bck-file-attach,
 .bck-box.bck-box-7 .bck-title {
     font-family: 'Lalezar';
     text-transform: uppercase;
-    font-size: 18px;
 }
 .bck-box.bck-box-7 .bck-content {
     padding: 10px;
-    font-size: 16px;
+    font-size: calc(var(--TextoGeneral) - 2px);
     background-color: #FDDDBD;
     border-bottom: 3px solid #F68B1F;
 }
 .bck-box.bck-box-7 .bck-content p {
-    line-height: 22px !important;   
+    line-height: 24px !important;   
 }
 
 /*CAJA 8*/
@@ -729,7 +734,7 @@ body:not(.edit) #actividad .bck-box-10 a.zoom_flag_img {
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
     color: white;
     cursor: pointer;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     font-weight: bold;
     padding-right: 40px;
   }
@@ -772,7 +777,7 @@ body:not(.edit) #actividad .bck-box-10 a.zoom_flag_img {
 /*Flipbox*/
 body:not(.edit) .bck-flipbox {
     margin: 0px 0 15px 0;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 
 body:not(.edit) .bck-flipbox-face.front {
@@ -836,9 +841,8 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     position: relative;
     margin-bottom: 10px;
     margin-left: 0;
-    line-height: inherit;
-    font-size: 18px;
-    line-height: 25px !important;
+    font-size: var(--TextoGeneral);
+    line-height: inherit !important;
 }
 #actividad .content .texto_curso .bck-ul,
 #actividad .content .cke_contents .bck-ul,
@@ -859,7 +863,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 	padding-left: 20px;
 }
 #actividad .content ul.bck-ul li {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 
 .texto_curso ul li:before,
@@ -927,7 +931,7 @@ content: "";
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 #actividad .content .texto_curso .bck-ol li:before,
  #actividad .popover-content .bck-ol li:before,
@@ -1031,7 +1035,7 @@ content: "";
     margin-left: 0px;
     color: var(--Materiappal);
     text-align: right;
-    font-size: inherit
+    font-size: var(--TextoGeneral)
 }
 
 
@@ -1045,8 +1049,7 @@ content: "";
 .popover-template .popover-title {
     position: relative;
     background: none;
-    color: #fff;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     color: white;
     border-bottom: 0;
     font-weight: bold;
@@ -1058,7 +1061,7 @@ content: "";
     display: block;
     background: white;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: calc(var(--TextoGeneral) - 2px);
 }
 .close-popover {
     color: white;
@@ -1144,7 +1147,7 @@ content: "";
     margin: 5px 10px;
     color: white;
     font-weight: bold;
-    font-size: 14px;
+    font-size: var(--TextoSecundario);
     padding: 0 0 6px 0;
 }
 .info-template .fa-info:before {
@@ -1156,14 +1159,14 @@ content: "";
 .popover.top {
     margin-top: -10px;
     background-color: var(--colorppal);
-    font-size: 14px;
+    font-size: var(--TextoSecundario);
     line-height: 19px;
     border: 0;
 }
 .popover-title {
     margin: 0;
     padding: 8px 14px;
-    font-size: 14px;
+    font-size: var(--TextoGeneral);
     font-weight: bold;
     line-height: 18px;
     background-color: var(--colorppal);
@@ -1367,7 +1370,7 @@ hr {
 }
 .fillblanks-draggable-wrapper .response p {
     padding: 9px 10px;
-    font-size: inherit;
+    font-size: var(--TextoGeneral);
 }
 .slide_main input[disabled], 
 .slide_main input[readonly],
@@ -1589,7 +1592,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     text-align: center;
 }
 #actividad .workspace.memory .flip-container p {
-	font-size: 18px;
+	font-size: var(--TextoGeneral);
 }
 #actividad .workspace.memory .flip-container,
  .front, 
@@ -1614,7 +1617,7 @@ body:not(.edit) .btn-danger[disabled] {
     background: #e0f4cd;
     font-weight: 700;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: var(--TextoSecundario);
 }
 
 .btn-primary,
@@ -1628,7 +1631,7 @@ body:not(.edit) .btn-danger[disabled] {
     border: 0;
     color: #000;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: var(--TextoSecundario);
     font-weight: bold;
 }
 
@@ -1656,7 +1659,7 @@ body:not(.edit) .btn-danger:hover,
     border-radius: 5px;
     color: #000;
     font-weight: normal;
-    font-size: 16px;
+    font-size: var(--TextoGeneral);
 }
 .btn-primary[disabled],
 .btn-primary[disabled]:focus {
@@ -1674,7 +1677,7 @@ body:not(.edit) .btn-danger:hover,
     border: 0;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: var(--TextoSecundario);
     padding: 10px 15px;
 }
 .btn-next:active,
@@ -1700,7 +1703,7 @@ table td.bck-td-1 {
     background-color: var(--colorppal);
     font-weight: bold;
     text-align: center;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 table td.bck-td-2 {
     background-color: var(--colortrans);
@@ -1718,7 +1721,7 @@ table,
 table td,
 .bck-table td {
 	border-color: #000;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 
 /*Tabla 1 Castellano*/
@@ -1838,28 +1841,16 @@ th {
 #actividad .carousel-inner .class_slide {
     padding: 40px 40px 0px;
 }
-.bck-box.bck-box-3 {
-    width: calc(100% + 80px);
-    margin-left: -40px;
-    padding: 15px 40px;
-}
 }
 
 @media only screen 
 and (max-width : 480px) {
-.texto_curso p {
-    line-height: 2.8rem !important;
+
+:root {
+    --TextoGeneral: 18px;
 }
-#actividad .texto_curso {
-    font-size: 18px;
-    line-height: 2.8rem !important;
-}
-#actividad .pregunta .texto_curso {
-    font-size: 18px;
-}
-#actividad textarea {
-    font-size: 18px;
-}
+
+
 #actividad .class_slide .review {
     text-align: center;
 }
