@@ -472,7 +472,7 @@ body #actividad a.bck-file-attach,
 }
 .bck-enfasis-3 {
     color: var(--Materiappal);
-    font-size: var(--TextoGeneral - 2px);
+    font-size: calc(var(--TextoGeneral - 2px));
 }
 .bck-enfasis-4 {
     color: #223F99;
