@@ -478,7 +478,12 @@ body #actividad a.bck-file-attach,
 .bck-enfasis-4 {
     color: #223F99;
 }
-
+.bck-enfasis-5 {
+    font-family: 'Lalezar';
+}
+.bck-enfasis-6 {
+    font-family: 'Patrick Hand', cursive;
+}
 /* ---- CAJAS ---*/
 .bck-box {
     position: relative;
