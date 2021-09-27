@@ -440,14 +440,14 @@ body #actividad a.bck-file-attach,
     font-family: 'Lalezar';
 }
 .bck-title-5 {
-    font-size: 21px;
+    font-size: calc(var(--TextoGeneral) + 2px);
     margin: 10px 0 2px 0;
     color: #00A65D;
     font-family: 'Lalezar';
     text-transform: uppercase;
 }
 .bck-title-6 {
-    font-size: 21px;
+    font-size: calc(var(--TextoGeneral) + 2px);
     margin: 10px 0 2px 0;
     color: var(--colorppal);
     font-family: 'Lalezar';
