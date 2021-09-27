@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
     /*Colores*/
@@ -468,7 +469,7 @@ body #actividad a.bck-file-attach,
     font-weight: bold;
 }
 .bck-enfasis-2 {
-    font-family: serif;
+    font-family: 'Source Serif Pro', serif;
 }
 .bck-enfasis-3 {
     color: var(--Materiappal);
@@ -642,6 +643,7 @@ body #actividad a.bck-file-attach,
     margin: 20px 0;
     border-radius: 0;
     border: 0;
+    font-family: 'Source Serif Pro', serif;
 }
 .bck-box.bck-box-6 .bck-title {
     color: #000;
