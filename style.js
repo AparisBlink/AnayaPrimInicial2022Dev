@@ -22,10 +22,12 @@
 				{ name: 'Título 06', element: 'h3', attributes: { 'class': 'bck-title-6'} },
 				{ name: 'Título 07', element: 'h3', attributes: { 'class': 'bck-title-7'} },
 
-				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
-				{ name: 'Énfasis 02 Lecturas', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
-				{ name: 'Énfasis 03 Color Materia', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
-				{ name: 'Énfasis 04', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
+				{ name: 'Én. 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'Én. 02 Lecturas', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
+				{ name: 'Én. 03 Color Materia', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
+				{ name: 'Én. 04', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
+				{ name: 'Én. 05 Resaltado Tipografía', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
+				{ name: 'Én. 06 Manuscrita Tipografía', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
 
 
 				{ name: 'Lista 123 Auto', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
