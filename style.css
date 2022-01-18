@@ -1051,7 +1051,7 @@ content: "";
     width: 60px;
     margin-top: 0px;
     left: -64px;
-    top: -6px;
+    top: -3px;
     margin-left: 0px;
     color: var(--Materiappal);
     text-align: right;
@@ -1076,7 +1076,7 @@ content: "";
     width: 60px;
     margin-top: 0px;
     left: -64px;
-    top: -1px;
+    top: 0px;
     margin-left: 0px;
     color: #8BC63E;
     text-align: right;
@@ -1346,9 +1346,12 @@ body:not(.edit) #actividad a.zoom_flag_img {
     right: 0;
 }
 
-/*Eliminar el fondo en el vídeo*/
+/*Ajuste video*/
 .video-js {
 	background-color: transparent;
+}
+.bck-video-player {
+    height: 100%;
 }
 /*Ajuste en imágenes*/
 .bck-i-fullscreen-wrapper {
@@ -1594,11 +1597,11 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     color: #000;
 }
 #actividad .inline-answer a,
- body:not(.edit) #actividad .inline-answer a:not(.cke_button):not(.zoom_flag_img) {
+ body:not(.edit) #actividad .inline-answer a:not(.cke_button,.respuesta_ok,.respuesta_ko):not(.zoom_flag_img) {
     color: #000;
 }
 #actividad .inline-answer a.selected,
- body:not(.edit) #actividad .inline-answer a.selected:not(.cke_button):not(.zoom_flag_img) {
+ body:not(.edit) #actividad .inline-answer a.selected:not(.cke_button,.respuesta_ko,.respuesta_ok):not(.zoom_flag_img) {
     color: var(--colorppal);
 }
 
@@ -1644,8 +1647,29 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     color: var(--colorppal);
     background-color: transparent;
 }
+#actividad .workspace.chooseblanks .respuesta_ok {
+    border-color: #74d320;
+}
+#actividad .workspace.chooseblanks .respuesta_ko {
+    border-color: #ef0c24;
+}
+#actividad .workspace.chooseblanks .inline-answer a.respuesta_ok{
+    background-color: #e9fed6;
+    color: #74d320 !important;
+}
+#actividad .workspace.chooseblanks .inline-answer a.respuesta_ko {
+    background-color: #ffd8dc;
+    color: #ef0c24 !important;
+}
 /*tipo test*/
-
+#actividad .workspace.test .respuesta_ko {
+    background-color: #ffe1e4;
+    border-bottom: 2px solid #ef0c24;
+}
+#actividad .workspace.test .respuesta_ok {
+    background-color: #e7ffd1;
+    border-bottom: 2px solid #74d320;
+}
 
 
 
