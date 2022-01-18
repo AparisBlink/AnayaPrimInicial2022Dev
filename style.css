@@ -90,6 +90,10 @@ strong {
 	font-weight: bold;
 }
 
+/*---------------------------------------*/
+/*-- PARTE QUE NO AFECTA AL DISEÑO FINAL-*/
+/*---------------------------------------*/
+
 /* TOC */
 #indice .units ul li {
 	background: #FFF;
@@ -226,6 +230,16 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     color: #fff;
 	font-weight: bold;
 }
+/*logo*/
+.content_type_curso_AnayaPrimInicial2022Dev.content_type_clase_AnayaPrimInicial2022Dev   .libro-left ul li .title:before { 
+	opacity: 0;
+}
+
+/*----*/
+
+/*-------------------------------------------------------------------*/
+/*---------------- PARTE QUE SI AFECTA AL DISEÑO FINAL --------------*/
+/*-------------------------------------------------------------------*/
 
 /*General */
 #swipeview-slider > div {
@@ -254,6 +268,13 @@ body {
 #actividad .pregunta .texto_curso {
     font-size: var(--TextoGeneral);
 }
+#actividad .workspace {
+    font-size: var(--TextoGeneral);
+}
+#actividad textarea {
+    font-size: var(--TextoGeneral);
+}
+
 .slide-wrapper {
 	text-align: left;
 }
@@ -282,21 +303,9 @@ body {
     position: relative;
 }
 
-/*logo*/
-.content_type_curso_AnayaPrimInicial2022Dev.content_type_clase_AnayaPrimInicial2022Dev   .libro-left ul li .title:before { 
-	opacity: 0;
-}
-
-
 /*video*/
-.vjs-poster {
-	background-color: #fff;
-}
-
-
-/*tamaño enunciado listas*/
-#actividad textarea {
-    font-size: var(--TextoGeneral);
+.bck-video-player {
+    height: 100%;
 }
 
 /*ENLACE WEB*/
@@ -1301,42 +1310,6 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     margin-top: 0;
 }
 
-.item-container .icon-tic:before {
-    background-image: url(images/icono_tic.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-cooperativo:before {
-    background-image: url(images/icono_cooperativo.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-emprendimiento:before {
-    background-image: url(images/icono_emprendimiento.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-ods:before {
-    background-image: url(images/icono_ods.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-pensamiento:before {
-    background-image: url(images/icono_pensamiento.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-plc:before {
-    background-image: url(images/icono_plc.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
 
 /*Lupa para imágenes*/
 body:not(.edit) #actividad a.zoom_flag_img {
@@ -1346,13 +1319,7 @@ body:not(.edit) #actividad a.zoom_flag_img {
     right: 0;
 }
 
-/*Ajuste video*/
-.video-js {
-	background-color: transparent;
-}
-.bck-video-player {
-    height: 100%;
-}
+
 /*Ajuste en imágenes*/
 .bck-i-fullscreen-wrapper {
     padding: 0;
@@ -1671,16 +1638,6 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     border-bottom: 2px solid #74d320;
 }
 
-
-
-#actividad .workspace.test .respuesta_ko {
-    background-color: #ffe1e4;
-    border-bottom: 2px solid #ef0c24;
-}
-#actividad .workspace.test .respuesta_ok {
-    background-color: #e7ffd1;
-    border-bottom: 2px solid #74d320;
-}
 /*Memomory*/
 #actividad .workspace.memory {
     text-align: center;
@@ -1697,7 +1654,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 
 /*Respuestas cortas*/
 .hint.solucion.decoding {
-    COLOR: #00BDFF;
+    color: #00BDFF;
 }
 
 /*botonera general*/
@@ -1959,13 +1916,26 @@ and (max-width : 480px) {
 }
 #actividad .content .header .title h3,
 .bck-title-1 {
-    font-size: 2.5rem;    
+    font-size: 25px;    
 }
 .bck-title-2 {
-    font-size: 2.2rem;
+    font-size: 22px;
 }
 .bck-title-3 {
     font-size: 18px;
+}
+.bck-title-4 {
+    font-size: 27px;
+}
+.bck-title-7 {
+    font-size: 26px;
+}
+.bck-box.bck-box-2:before {
+    right: -15px;
+    top: -34px;
+}
+.bck-box.bck-box-3:before {
+    right: 4px;
 }
 .puzzle-wrapper {
     width: 100%;
