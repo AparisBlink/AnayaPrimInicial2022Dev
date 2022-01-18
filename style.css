@@ -1006,7 +1006,8 @@ content: "";
 
 #actividad .content .texto_curso .bck-ol li,
  #actividad .popover-content .bck-ol li,
-  #actividad .content .workspace ul li .bck-ol li {
+  #actividad .content .workspace ul li .bck-ol li,
+  #actividad .content .cke_contents .bck-ol li {
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
@@ -1014,7 +1015,8 @@ content: "";
 }
 #actividad .content .texto_curso .bck-ol li:before,
  #actividad .popover-content .bck-ol li:before,
- #actividad .content .workspace ul li .bck-ol li:before {
+ #actividad .content .workspace ul li .bck-ol li:before,
+ #actividad .content .cke_contents .bck-ol li:before {
 	content: counter(bck-li-counter);
     position: relative;
     text-align: left;
