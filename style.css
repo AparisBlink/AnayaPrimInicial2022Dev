@@ -1695,6 +1695,11 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     display: inline-block;
 }
 
+/*Respuestas cortas*/
+.hint.solucion.decoding {
+    COLOR: #00BDFF;
+}
+
 /*botonera general*/
 #actividad .class_slide .review {
 	margin-top: 20px;
